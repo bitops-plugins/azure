@@ -30,3 +30,6 @@ echo "Running the plugin CLI: (SKIPPED)"
 echo "Options:"
 echo "AZURE_FOO: $AZURE_FOO"
 echo "AZURE_BAR: $AZURE_BAR"
+
+# here is the image using the installed azure cli
+az version
