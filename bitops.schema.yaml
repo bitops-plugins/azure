@@ -1,0 +1,16 @@
+azure:
+  type: object
+  properties:
+    options:
+      type: object
+      properties:
+        foo:
+          type: string
+          export_env: AZURE_FOO
+          required: true
+          default: foo
+        bar:
+          type: string
+          export_env: AZURE_BAR
+          required: true
+          default: fop
